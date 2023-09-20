@@ -1,0 +1,38 @@
+{
+  "port": 3100,
+  "host": "localhost",
+  "mongoDbUrl": "mongodb+srv://arindam:arindam@test.g7xwc.mongodb.net/digizone?retryWrites=true&w=majority",
+  "tokenSecret": "ARI@TOKEN_123",
+  "fileStoragePath": "../uploads/",
+  "appPrefix": "api/v1",
+  "cloudinary": {
+    "cloud_name": "df2uufrnc",
+    "api_key": "315812872785858",
+    "api_secret": "5QEv4lqlmwFKvjVoGCfQzWCnbKg",
+    "folderPath": "digizone/products/",
+    "publicId_prefix": "digi_prods_",
+    "bigSize": "400X400"
+  },
+  "adminCreateToken": "sadeSd@#s4fv$sd",
+  "emailService": {
+    "testDomain": "sandbox4ea7cfe84fde4fbcb3bf6b9157156213.mailgun.org",
+    "testEmail": "Digizone <mailgun@sandbox4ea7cfe84fde4fbcb3bf6b9157156213.mailgun.org>",
+    "privateApiKey": "6dcc23eca0b183f2cb1bffccd2f07821-2bab6b06-cbb75d6e",
+    "publicApiKey": "pubkey-2839820e8d7f1ca0940ec4a5cd464204",
+    "emailTemplates": {
+      "forgotPassword": "forgot-password-template",
+      "verifyEmail": "verify-email-template",
+      "orderSuccess": "order-success"
+    }
+  },
+  "loginLink": "http://localhost:3000/auth",
+  "verifyEmailLink": "http://localhost:3000/auth?verifyToken=",
+  "stripe": {
+    "publishable_key": "pk_test_51GzkT8C75ex8AkqxBjjmzLHcc1aBuKKkdxk0IQDhXfx58yaCtcOHm1rRm1zZbfYtOvesyS459XnBwcir8o6hVeQt00s2xbwlpk",
+    "secret_key": "sk_test_51GzkT8C75ex8AkqxNlnmuLprbZGDFTvbL2jGMVkyH70ZHXWRXfTeGCPeRlZjhhrABUm8s1GAGT43T5skBUv4hqBv00GrCiFOpg",
+    "successUrl": "http://localhost:3000/order-success",
+    "cancelUrl": "http://localhost:3000/order-cancel",
+    "webhook_secret": "whsec_65091664c52548dae5e241f06b7b885826abc096430fc3fcfea6fe567623d859"
+  },
+  "orderLink": "http://localhost:3000/orders/"
+}
